@@ -1,0 +1,35 @@
+.Indicator {
+	display: inline-block;
+	border-left: 1px solid #ddd;
+	min-width: 20px;
+	position: relative;
+}
+
+	.Indicator .Nub {
+		position: absolute;
+		left: -1px;
+		content: " ";
+		border: 13px solid transparent;
+		border-left-color: #ddd;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		-moz-transition: top 1s;
+		-o-transition: top 1s;
+		-webkit-transition: top 1s;
+		transition: top 1s;
+	}
+
+		.Indicator .Nub:before {
+			left: -13.2px;
+			top: 0;
+			border: solid transparent;
+			content: " ";
+			height: 0;
+			width: 0;
+			position: absolute;
+			pointer-events: none;
+			border-left-color: #fff;
+			border-width: 12px;
+			margin-top: -12px;
+		}
