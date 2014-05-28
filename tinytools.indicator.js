@@ -1,5 +1,5 @@
 /*!
-	Indicator 1.0.1 - 2014-05-15
+	Indicator 1.0.2 - 2014-05-15
 	jQuery Indicator
 	(c) 2014, http://tinytools.codesells.com
 	license: http://www.opensource.org/licenses/mit-license.php
